@@ -78,6 +78,9 @@ Rails.application.configure do
   config.hosts << "evo-crm"
   config.hosts << "evo-core"
   config.hosts << "evo-processor"
+  # Allow auth-service hostname (with port) for CRM integration
+  config.hosts << "auth-service"
+  config.hosts << "auth-service:3001"
   
   # Allow ngrok hosts for local development
   config.hosts << "evo-auth-davidson.ngrok.app"

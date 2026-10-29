@@ -106,6 +106,7 @@ class ResourceActionsConfig
       description: 'AI agent management and configuration',
       actions: {
         read: { name: 'View', description: 'View AI agents and their configurations' },
+        write: { name: 'Write', description: 'Create and update AI agents' },
         create: { name: 'Create', description: 'Create new AI agents' },
         update: { name: 'Update', description: 'Update agent configurations' },
         delete: { name: 'Delete', description: 'Delete AI agents' },
